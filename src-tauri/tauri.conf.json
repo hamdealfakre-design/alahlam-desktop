@@ -1,0 +1,23 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "package": {
+    "productName": "ALAHLAM",
+    "version": "0.1.0"
+  },
+  "tauri": {
+    "bundle": {
+      "active": true,
+      "targets": ["deb", "appimage", "msi", "dmg"]
+    },
+    "security": {
+      "csp": null
+    },
+    "updater": { "active": false },
+    "allowlist": {
+      "all": true
+    },
+    "windows": [
+      { "title": "ALAHLAM", "resizable": true, "fullscreen": false, "width": 1400, "height": 900 }
+    ]
+  }
+}
